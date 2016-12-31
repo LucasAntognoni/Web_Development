@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    color: orangered; 
+    font-size: 60px; 
+    text-align: center;
+}
+
+#d1, #d2, #d3{
+    border: 2px solid black;
+    background: lightgray;
+    margin: 30px;
+    padding: 10px;
+}
+
+#first {
+  border: 1px solid black;
+  background-color: lightgreen;
+  text-align: center;
+  color: black;
+  margin: 0;
+  width: 10%;
+  height: 10%;
+}
+
+#second {
+  border: 1px solid black;
+  background-color: indianred;
+  width: 20%;
+  height: 20%;
+  /*margin-right: auto;
+  margin-left: auto;*/
+  text-align: center;
+  color: black;
+}
+
+#third {
+  border: 1px solid black;
+  background-color: cyan;
+  width: 10%;
+  height: 10%;
+  /*margin-right: auto;
+  margin-left: auto;*/
+  text-align: center;
+  color: black;
+}
