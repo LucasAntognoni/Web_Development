@@ -13,8 +13,8 @@ h1 {
   background-color: lightgreen;
   text-align: center;
   color: black;
-  margin: 0px;
-  width: 30%;
+  margin: -1px;
+  width: 100px;
   height: 30px;
   float: right;
 }
@@ -24,8 +24,8 @@ h1 {
   background-color: indianred;
   text-align: center;
   color: black;
-  margin: 0;
-  width: 40%;
+  margin: -1px;
+  width: 100px;
   height: 30px;
   float: right;
 }
@@ -35,8 +35,8 @@ h1 {
   background-color: cyan;
   text-align: center;
   color: black;
-  margin: 0;
-  width: 30%;
+  margin: -1px;
+  width: 100px;
   height: 30px;
   float: right;
 }
