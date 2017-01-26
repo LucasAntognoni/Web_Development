@@ -1,0 +1,77 @@
+/* HEADER */
+
+#header-nav {
+  background-color: #008fb3;
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar-brand {
+  padding-top: 15px;
+}
+
+.navbar-brand h1 {
+  color: #ff751a;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+
+#nav-list h2 {
+  color: #1aff1a;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #ffffff;
+}
+
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -43px;
+}
+
+/* CONTENT */
+
+.row {
+  margin: 10px;
+}
+
+.col-xs-12, .col-sm-12, .col-md-12 {
+  padding: 10px;
+}
+
+.col-xs-12 p, .col-sm-12 p, .col-md-12 p {
+  display: inline-block;
+  text-align: justify;
+  margin: 10px;
+  height: 1000px;
+}
+
+@media (min-width: 992px) {
+  .col-md-12 {
+    background-color: #bfbfbf;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-sm-12 {
+    background-color: #cccccc;
+  }
+}
+
+@media (max-width: 767px) {
+  .col-xs-12 {
+    background-color: #d9d9d9;
+  }
+}
